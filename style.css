@@ -82,7 +82,7 @@
 }
 
 /* Second Section */
-.text-section {
+.second-section {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('images/Vectorrr.png');
     background-position: bottom right;
     width: 1320px;
@@ -91,13 +91,6 @@
     border-radius: 16px;
     margin: 50px auto;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.second-section {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -136,13 +129,10 @@
     margin-left: 158px;
 }
 
-.second-img {
-
+.second-section-img {
     width: 319.83px;
     height: 464.662px;
-    padding: 0.008px 0px 0px 0px;
-
-    flex-shrink: 0;
+    margin-left: 100px;
 }
 
 .join-style {
@@ -229,8 +219,8 @@
 }
 
 /* Fourth Section */
-.fourth-section{
-    margin-top:120px;
+.fourth-section {
+    margin-top: 120px;
 }
 
 .fourth-parent {
@@ -239,7 +229,7 @@
 }
 
 
-.fourth-circular-img{
+.fourth-circular-img {
     border-radius: 463px;
     border: 15px solid #F00;
     padding: 49px;
@@ -293,51 +283,94 @@
     /* 160% */
 }
 
-
-
-
-
 /* Fifth Section */
-.image-container{
-    height: 1000px;
-    position:relative;
+.fifth-section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
 }
 
-
-
-.box-4{
-    position:absolute;
-    bottom:0px;
-    left:0px;
-    margin-left:90px;
+.fifth-first {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom:16px;
 }
 
-.box-1{
-    position:absolute;
-    bottom:229px;
-    right:93px;
+.fifth-second {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top:16px;
+    margin-bottom:28px;
 }
 
-.box-3{
-    position:absolute;
-    bottom:20px;
-    left:50px;
-    z-index:1;
+.fifth-holidays {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
 }
 
-.box-2{
-    position:absolute;
-    bottom:229px;
+.fifth-para {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+}
+
+.image-container {
+    
+    height: 800px;
+    position: relative;
+    margin-bottom: 120px;
+}
+
+.box-4 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin-left: 90px;
+
+}
+
+.box-1 {
+    position: absolute;
+    bottom: 229px;
+    right: 93px;
+}
+
+.box-3 {
+    position: absolute;
+    bottom: -10px;
+    left: 110px;
+    z-index: 1;
+}
+
+.box-2 {
+    position: absolute;
+    bottom: 229px;
     right: 380px;
-    top:400px;
+    top: 220px;
 }
-
-
-
-
 
 /* Sixth Section */
-.sixth-section {
+.sixth-text {
     margin-left: 90px;
 }
 
@@ -378,6 +411,7 @@
     display: flex;
     gap: 24px;
     margin-bottom: 24px;
+    justify-content: center;
 }
 
 .sixth-img {
